@@ -42,18 +42,19 @@ img{max-width:100%;display:block}
 
 /* Cover */
 .cover{background:var(--forest);color:var(--on-forest)}
-.cover .wrap{padding-block:56px 64px;display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+.cover .wrap{padding-block:56px 64px;display:grid;grid-template-columns:1.15fr 1fr;gap:28px 56px;align-items:end}
+.cover figure{grid-column:1/-1;margin-top:28px}
 .cover .eyebrow{color:var(--lime)}
 .cover h1{font-size:clamp(40px,6vw,72px);margin-top:18px}
 .cover h1 em{font-style:italic;color:var(--lime);font-weight:500}
-.cover p.lead{color:var(--on-forest-soft);font-size:18px;max-width:30em;margin:22px 0 28px}
+.cover p.lead{color:var(--on-forest-soft);font-size:18px;max-width:30em;margin:0 0 24px}
 .swatches{display:flex;gap:8px;margin-bottom:30px}
 .swatches i{width:28px;height:28px;border-radius:7px;display:block}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:0;cursor:pointer;font-family:var(--body)}
 .btn-lime{background:var(--lime);color:#13241b}
 .btn-ghost{background:transparent;color:var(--on-forest);box-shadow:inset 0 0 0 1.5px var(--on-forest-soft)}
-.cover figure{margin:0;position:relative}
+.cover figure{position:relative;margin-left:0;margin-right:0;margin-bottom:0}
 .cover figure img{border-radius:14px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
 .cover figcaption{font-size:13px;color:var(--on-forest-soft);margin-top:12px}
 
@@ -169,6 +170,8 @@ footer .wrap{padding-block:22px}
     <div>
       <div class="eyebrow">Brand designer · Abia State, Nigeria</div>
       <h1>Ifeanyichukwu Martins Ezenwaedeh. From the logo <em>to the delivery truck.</em></h1>
+    </div>
+    <div class="cover-side">
       <p class="lead">I design complete brands for product businesses: logos, packaging, labels, shop signs, campaigns, social media, staff uniforms and fleet branding. Currently the in-house designer for Starich Home Textiles and its sister brands Mercury, Bermo and Kuka.</p>
       <div class="swatches" aria-label="Brand colours of Starich, Mercury, Bermo and Kuka"><i style="background:var(--starich)"></i><i style="background:var(--mercury)"></i><i style="background:var(--bermo)"></i><i style="background:var(--kuka)"></i></div>
       <div class="cta-row">
