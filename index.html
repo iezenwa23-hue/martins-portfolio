@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Ifeanyichukwu Martins Ezenwaedeh, brand designer in Nigeria. Logos, packaging, labels, shop signs, campaigns and fleet branding for product businesses.">
+<meta property="og:title" content="Martins Ezenwaedeh, Brand Designer">
+<meta property="og:description" content="From the logo to the delivery truck. Brand design for product businesses.">
+<meta property="og:image" content="img/p36.jpg">
+<title>Martins Ezenwaedeh, Brand Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one long brand-book scroll. Cover, proof in numbers, services with prices, four brand chapters plus earlier work, experience, contact. */
+:root{
+  --paper:#f3f0e7; --paper-2:#e9e5d8; --ink:#13241b; --ink-soft:#4b5a50; --line:#d6d1c2;
+  --forest:#11291d; --forest-2:#1a3a2a; --lime:#c3e467; --lime-ink:#2c5a17;
+  --on-forest:#f1eee4; --on-forest-soft:#a9bdaf;
+  --starich:#2a7a3b; --mercury:#3a64b0; --bermo:#1e6b52; --kuka:#f0b323;
+  --display:"Fraunces", Georgia, "Times New Roman", serif;
+  --body:"Manrope", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0f1c15; --paper-2:#152a1f; --ink:#eeeadf; --ink-soft:#a9b7ad; --line:#26392e;
+  --forest:#0a1610; --forest-2:#132a1e; --lime:#c3e467; --lime-ink:#c3e467;
+  --on-forest:#f1eee4; --on-forest-soft:#a9bdaf; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --paper:#0f1c15; --paper-2:#152a1f; --ink:#eeeadf; --ink-soft:#a9b7ad; --line:#26392e;
+  --forest:#0a1610; --forest-2:#132a1e; --lime:#c3e467; --lime-ink:#c3e467;
+  --on-forest:#f1eee4; --on-forest-soft:#a9bdaf; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px, env(safe-area-inset-left, 0px));padding-right:max(20px, env(safe-area-inset-right, 0px))}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;text-wrap:balance}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--lime-ink)}
+a{color:inherit}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+
+/* Cover */
+.cover{background:var(--forest);color:var(--on-forest)}
+.cover .wrap{padding-block:56px 64px;display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+.cover .eyebrow{color:var(--lime)}
+.cover h1{font-size:clamp(40px,6vw,72px);margin-top:18px}
+.cover h1 em{font-style:italic;color:var(--lime);font-weight:500}
+.cover p.lead{color:var(--on-forest-soft);font-size:18px;max-width:30em;margin:22px 0 28px}
+.swatches{display:flex;gap:8px;margin-bottom:30px}
+.swatches i{width:28px;height:28px;border-radius:7px;display:block}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:0;cursor:pointer;font-family:var(--body)}
+.btn-lime{background:var(--lime);color:#13241b}
+.btn-ghost{background:transparent;color:var(--on-forest);box-shadow:inset 0 0 0 1.5px var(--on-forest-soft)}
+.cover figure{margin:0;position:relative}
+.cover figure img{border-radius:14px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.cover figcaption{font-size:13px;color:var(--on-forest-soft);margin-top:12px}
+
+/* Numbers */
+.numbers{border-bottom:1px solid var(--line)}
+.numbers .wrap{display:grid;grid-template-columns:repeat(6,1fr);gap:20px;padding-block:36px}
+.num b{display:block;font-family:var(--display);font-size:42px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.num span{font-size:13px;color:var(--ink-soft)}
+
+section.block{padding-block:80px}
+.head{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:end;margin-bottom:40px}
+.head h2{font-size:clamp(32px,4vw,48px);margin-top:12px}
+.head p{color:var(--ink-soft);margin:0;max-width:36em}
+
+/* Services */
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.svc{background:var(--paper);padding:26px 26px 24px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.svc h3{font-size:22px}
+.svc p{margin:0;color:var(--ink-soft);font-size:15px;flex:1}
+.svc .price{font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;margin-top:8px}
+.svc .price small{font-weight:500;color:var(--ink-soft)}
+.retainers{margin-top:28px;background:var(--forest);color:var(--on-forest);border-radius:16px;padding:30px;display:grid;grid-template-columns:1fr 2fr;gap:30px}
+.retainers h3{font-size:26px}
+.retainers .eyebrow{color:var(--lime)}
+.retainers p{color:var(--on-forest-soft);font-size:15px;margin:10px 0 0}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.plan{background:var(--forest-2);border-radius:12px;padding:18px;min-width:0}
+.plan b{display:block;font-family:var(--display);font-size:20px}
+.plan .amt{color:var(--lime);font-weight:700;font-variant-numeric:tabular-nums;margin:4px 0 8px}
+.plan span{font-size:14px;color:var(--on-forest-soft)}
+.terms{font-size:14px;color:var(--ink-soft);margin-top:18px}
+
+/* Work */
+.work{background:var(--paper-2)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+.tab{font-family:var(--body);font-weight:700;font-size:14px;padding:10px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.tab i{width:12px;height:12px;border-radius:3px;display:block}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.brand-intro{display:flex;flex-wrap:wrap;gap:12px 30px;align-items:baseline;margin-bottom:24px}
+.brand-intro h3{font-size:30px}
+.brand-intro p{margin:0;color:var(--ink-soft);max-width:44em}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.shot{margin:0;cursor:zoom-in;background:none;border:0;padding:0;text-align:left;font:inherit;color:inherit}
+.shot img{border-radius:10px;box-shadow:0 1px 0 var(--line),0 12px 30px rgba(17,41,29,.12);aspect-ratio:16/9;object-fit:cover;width:100%}
+.shot span{display:block;font-size:14px;font-weight:600;margin-top:10px}
+.shot small{display:block;font-size:13px;color:var(--ink-soft);font-weight:500}
+
+/* Experience */
+.exp{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.role{display:grid;grid-template-columns:160px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line)}
+.role .when{font-size:14px;font-weight:700;color:var(--lime-ink)}
+.role h3{font-size:21px}
+.role .org{font-weight:600;font-size:15px;margin:2px 0 6px}
+.role p{margin:0;color:var(--ink-soft);font-size:15px}
+.side{background:var(--paper-2);border-radius:16px;padding:26px;align-self:start}
+.side h4{margin:0 0 6px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--lime-ink)}
+.side p{margin:0 0 18px;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600}
+
+/* Contact */
+.contact{background:var(--forest);color:var(--on-forest)}
+.contact .wrap{padding-block:80px;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.contact h2{font-size:clamp(40px,6vw,68px)}
+.contact h2 em{font-style:italic;color:var(--lime);font-weight:500}
+.contact p{color:var(--on-forest-soft);max-width:30em}
+.card{background:var(--forest-2);border-radius:16px;padding:26px;display:grid;gap:14px}
+.line{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:12px}
+.line:last-child{border:0;padding-bottom:0}
+.line small{display:block;font-size:12px;color:var(--on-forest-soft);letter-spacing:.12em;text-transform:uppercase}
+.line b{font-size:18px;user-select:all;font-variant-numeric:tabular-nums}
+.copy{background:transparent;color:var(--lime);border:1.5px solid var(--lime);border-radius:999px;padding:6px 14px;font-weight:700;font-size:13px;cursor:pointer;font-family:var(--body)}
+footer{background:var(--forest);color:var(--on-forest-soft);font-size:13px;border-top:1px solid rgba(255,255,255,.08)}
+footer .wrap{padding-block:22px}
+
+/* Lightbox */
+.lb{position:fixed;inset:0;background:rgba(8,18,12,.92);display:flex;align-items:center;justify-content:center;padding:max(20px, env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) max(20px, env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px));z-index:50;flex-direction:column;gap:14px}
+.lb img{max-height:82vh;border-radius:8px}
+.lb p{color:#f1eee4;margin:0;font-weight:600;text-align:center}
+.lb button{position:absolute;top:calc(16px + env(safe-area-inset-top, 0px));right:calc(16px + env(safe-area-inset-right, 0px));background:#f1eee4;color:#13241b;border:0;border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer;font-family:var(--body)}
+
+@media (max-width:900px){
+  .cover .wrap,.head,.retainers,.exp,.contact .wrap{grid-template-columns:1fr}
+  .numbers .wrap{grid-template-columns:repeat(3,1fr)}
+  .services{grid-template-columns:repeat(2,1fr)}
+  .plans{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .services,.gallery{grid-template-columns:1fr}
+  .numbers .wrap{grid-template-columns:repeat(2,1fr)}
+  .role{grid-template-columns:1fr;gap:6px}
+  section.block{padding-block:56px}
+}
+@media (prefers-reduced-motion:no-preference){.shot img{transition:transform .25s ease}.shot:hover img{transform:translateY(-3px)}}
+</style>
+</head>
+<body>
+
+
+<header class="cover">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Brand designer · Abia State, Nigeria</div>
+      <h1>Ifeanyichukwu Martins Ezenwaedeh. From the logo <em>to the delivery truck.</em></h1>
+      <p class="lead">I design complete brands for product businesses: logos, packaging, labels, shop signs, campaigns, social media, staff uniforms and fleet branding. Currently the in-house designer for Starich Home Textiles and its sister brands Mercury, Bermo and Kuka.</p>
+      <div class="swatches" aria-label="Brand colours of Starich, Mercury, Bermo and Kuka"><i style="background:var(--starich)"></i><i style="background:var(--mercury)"></i><i style="background:var(--bermo)"></i><i style="background:var(--kuka)"></i></div>
+      <div class="cta-row">
+        <a class="btn btn-lime" href="#work">See the work</a>
+        <a class="btn btn-ghost" href="#contact">Start a project</a>
+      </div>
+    </div>
+    <figure>
+      <img src="img/p36.jpg" alt="Before and after: a factory truck rebranded from another brand to Starich">
+      <figcaption>Fleet branding for Starich. Old lettering removed, a full-length wrap fitted to the body.</figcaption>
+    </figure>
+  </div>
+</header>
+
+<div class="numbers">
+  <div class="wrap">
+    <div class="num"><b>159</b><span>Editable design files</span></div>
+    <div class="num"><b>4</b><span>Complete brand systems</span></div>
+    <div class="num"><b>30</b><span>Page brand manual</span></div>
+    <div class="num"><b>6</b><span>Shop signs, measured on site</span></div>
+    <div class="num"><b>5</b><span>Video adverts</span></div>
+    <div class="num"><b>10+</b><span>Earlier client brands</span></div>
+  </div>
+</div>
+
+<section class="block" id="services">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="eyebrow">Services and prices</div><h2>One designer for every surface of your brand</h2></div>
+      <p>Prices are in naira and cover design only. Printing is paid to your printer directly. Every project includes two rounds of changes and the final editable files.</p>
+    </div>
+    <div class="services">
+      <div class="svc"><h3>Logo design</h3><p>Three logo ideas, two rounds of changes, final files in every format you need.</p><div class="price">₦80,000 to ₦150,000</div></div>
+      <div class="svc"><h3>Starter brand kit</h3><p>Logo, colours, fonts, business card, letterhead, and social media profile pictures and covers.</p><div class="price">₦250,000</div></div>
+      <div class="svc"><h3>Full brand system</h3><p>Everything in the starter kit plus a brand manual of 20 to 30 pages, stickers, shop sign, uniforms and vehicle designs.</p><div class="price">₦600,000 to ₦1,200,000</div></div>
+      <div class="svc"><h3>Packaging and labels</h3><p>Print-ready bags, boxes, wraps and labels drawn to the millimetre, with certification marks and care labels.</p><div class="price">₦80,000 to ₦200,000 <small>per product</small></div></div>
+      <div class="svc"><h3>Shop signs and fleet</h3><p>Storefront signs sized to the real shop front, truck and van wraps, and staff uniforms.</p><div class="price">from ₦40,000 <small>per sign or vehicle</small></div></div>
+      <div class="svc"><h3>Seasonal campaign pack</h3><p>Three flyers, two roll-up banners, six social posts and a website banner for Christmas, Easter or a product launch.</p><div class="price">₦180,000</div></div>
+      <div class="svc"><h3>Flyers, posters and banners</h3><p>Single designs for events, promotions and price lists.</p><div class="price">₦15,000 to ₦35,000</div></div>
+      <div class="svc"><h3>3D product pictures</h3><p>Realistic product pictures made in Blender, for catalogues and adverts before the product is even made.</p><div class="price">₦40,000 to ₦80,000 <small>per product</small></div></div>
+      <div class="svc"><h3>Short video adverts</h3><p>30 to 45 second vertical videos for Instagram, TikTok and WhatsApp status.</p><div class="price">₦30,000 to ₦60,000</div></div>
+    </div>
+
+    <div class="retainers">
+      <div>
+        <div class="eyebrow">Monthly design support</div>
+        <h3>A designer on call, for a fixed monthly fee</h3>
+        <p>Paid at the start of each month. Unused designs don't carry over.</p>
+      </div>
+      <div class="plans">
+        <div class="plan"><b>Starter</b><div class="amt">₦80,000 a month</div><span>12 social media designs and 1 flyer</span></div>
+        <div class="plan"><b>Growth</b><div class="amt">₦150,000 a month</div><span>20 social media designs, 2 short videos, 2 flyers or banners</span></div>
+        <div class="plan"><b>Brand partner</b><div class="amt">₦300,000 a month</div><span>30 social designs, 4 videos, all seasonal campaigns, label and packaging updates, first priority</span></div>
+      </div>
+    </div>
+    <p class="terms">50 percent is paid before work starts and the balance before final files are sent. Extra rounds of changes cost ₦10,000 each. Jobs needed within 48 hours cost 30 percent more.</p>
+  </div>
+</section>
+
+<section class="block work" id="work">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="eyebrow">Selected work</div><h2>Four brands, four identities, one factory</h2></div>
+      <p>Each brand below was carried the whole way: identity, website and social media, packaging, signs, a Christmas campaign and fleet branding. Tap any picture to see it larger.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Choose a brand">
+      <button class="tab" role="tab" id="tab-starich" aria-selected="true" data-k="starich"><i style="background:var(--starich)"></i>Starich</button>
+      <button class="tab" role="tab" id="tab-mercury" aria-selected="false" data-k="mercury"><i style="background:var(--mercury)"></i>Mercury</button>
+      <button class="tab" role="tab" id="tab-bermo" aria-selected="false" data-k="bermo"><i style="background:var(--bermo)"></i>Bermo</button>
+      <button class="tab" role="tab" id="tab-kuka" aria-selected="false" data-k="kuka"><i style="background:var(--kuka)"></i>Kuka</button>
+      <button class="tab" role="tab" id="tab-earlier" aria-selected="false" data-k="earlier"><i style="background:var(--ink-soft)"></i>Earlier clients</button>
+    </div>
+    <div class="brand-intro"><h3 id="b-name"></h3><p id="b-text"></p></div>
+    <div class="gallery" id="gallery"></div>
+  </div>
+</section>
+
+<section class="block" id="experience">
+  <div class="wrap">
+    <div class="head">
+      <div><div class="eyebrow">Experience</div><h2>Where I have worked</h2></div>
+      <p>Six years of design for retail, manufacturing, logistics, beauty, food and tech businesses.</p>
+    </div>
+    <div class="exp">
+      <div>
+        <div class="role"><div class="when">Current role</div><div><h3>Graphic Designer</h3><div class="org">Starich Recycling Technology Co. Ltd, Abia State</div><p>Brand identity, packaging, signage, social media, video and fleet branding for Starich, Mercury, Bermo and Kuka.</p></div></div>
+        <div class="role"><div class="when">January to September 2023</div><div><h3>Freelance Graphic Designer</h3><div class="org">Planet Projects, Enugu</div><p>Retail display templates, flyers, posters and social media graphics, working with the sales team.</p></div></div>
+        <div class="role"><div class="when">April 2020 to December 2021</div><div><h3>Freelance Graphic Designer</h3><div class="org">Tzorah Emporium Ltd</div><p>3D perfume bottle models in Blender, product catalogues and marketing visuals.</p></div></div>
+      </div>
+      <aside class="side">
+        <h4>Education</h4>
+        <p><b>Graphics Design and Animation</b><br>Wootlab and Enugu State Tech Hub, sponsored by the Enugu SME Centre, 2023</p>
+        <p><b>Bachelor of Computer Science</b><br>Enugu State University of Science and Technology, 2018 to 2021</p>
+        <h4>Tools</h4>
+        <div class="chips"><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>Blender</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow" style="color:var(--lime)">Let us work together</div>
+      <h2 style="margin-top:14px">Planning a launch or a <em>Christmas promo?</em></h2>
+      <p>Send a message on WhatsApp with what you sell and what you need. I'll reply with ideas and a price within one working day.</p>
+    </div>
+    <div class="card">
+      <div class="line"><div><small>Phone and WhatsApp</small><b>0708 297 7953</b></div><button class="copy" data-copy="07082977953">Copy</button></div>
+      <div class="line"><div><small>Phone</small><b>0810 673 8194</b></div><button class="copy" data-copy="08106738194">Copy</button></div>
+      <div class="line"><div><small>Email</small><b>iezenwa23@gmail.com</b></div><button class="copy" data-copy="iezenwa23@gmail.com">Copy</button></div>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap">Ifeanyichukwu Martins Ezenwaedeh, Brand Designer. Every design here is kept as an editable file, ready to update for new products, shops and seasons.</div></footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Enlarged design">
+  <button id="lb-close">Close</button>
+  <img id="lb-img" alt="">
+  <p id="lb-cap"></p>
+</div>
+
+<script>
+const BRANDS={
+  starich:{name:"Starich Home Textiles",text:"The master brand. Identity, a 30-page brand manual, website, social media, packaging, labels, shop signs, factory boards in English and Chinese, a Christmas campaign and the truck fleet.",items:[
+    ["p08","A 30-page brand manual","Logo rules, colour, type and real-world uses"],
+    ["p07","Master brand guide board","Colours: Starich green, leaf green, lemon green"],
+    ["p09","Website main banner","2000 by 1000 and 1080 by 1920 pixels"],
+    ["p10","Product banner series","One layout for every product line"],
+    ["p13","Distributor carousel","Five Instagram slides, 1080 by 1350 pixels"],
+    ["p17","Five video reels","Vertical, 1080 by 1920 pixels"],
+    ["p25","Mattress bag main panel","960 by 360 millimetres, print-ready"],
+    ["p27","Premium Rest mattress labels","Size panel, warranty and certification marks"],
+    ["p31","Label mockup on the mattress","Checked for size and placement before print"],
+    ["p19","Six distributor shop signs","Measured on site, designed to fit"],
+    ["p22","Corporate culture board","Bilingual, English and Chinese"],
+    ["p32","Christmas Sleep Festival poster","Portrait poster, print and social"],
+    ["p34","Posters and roll-up banners","60 by 120 and 60 by 240 centimetres"],
+    ["p37","One wrap, every truck","Fleet branding"],
+    ["p38","Truck branding and staff uniforms","Box truck, T-shirt and polo"]]},
+  mercury:{name:"Mercury Headboard",text:"An independent brand in royal blue, built around a rounded, ribbon-like M.",items:[
+    ["p41","Mercury brand identity","Royal blue palette and ribbon M"],
+    ["p42","Full identity board","Logo, colours, type and applications"],
+    ["p45","Distributor posts","Instagram, 1080 by 1350 pixels"],
+    ["p47","Mattress packaging set","Drawn to millimetre measurements"],
+    ["p52","Christmas Sleep Festival","Flyers and roll-up banners"]]},
+  bermo:{name:"Bermo Home Furnishing",text:"An independent brand in deep forest green, built around a flowing B symbol.",items:[
+    ["p57","Bermo brand identity","Forest green palette and B symbol"],
+    ["p63","Mattress packaging set","Print-ready panels and labels"],
+    ["p66","Christmas Sleep Festival","A4 flyers and roll-up banners"],
+    ["p69","Truck branding and uniforms","Box truck, T-shirt and polo"]]},
+  kuka:{name:"Kuka Home Furnishing",text:"An independent brand in amber, dark brown and red, built around a sharp layered K.",items:[
+    ["p71","Kuka brand identity","Amber, brown and near-black"],
+    ["p76","Shop sign and specification sheet","Storefront 200 by 47 centimetres, A4 sheet"],
+    ["p77","Mattress packaging set","Drawn to millimetre measurements"],
+    ["p82","Santa roll-up banners","Pillow discount and special offer"]]},
+  earlier:{name:"Earlier client work",text:"Before Starich: logos, social media, menus and print for logistics, beauty, food, water and tech businesses.",items:[
+    ["p86","Logos and stationery","Engineering and logistics businesses"],
+    ["p87","Beauty and tech logos","Marks, colour versions and launch graphics"],
+    ["p88","QuikWrk app launch","Brand banner, launch flyers and seasonal posts"],
+    ["p89","Social media posts","Music, entertainment news and food"],
+    ["p90","Menus, labels and price flyers","Restaurant menus and a water brand"],
+    ["p91","Cultural festival flyers","Invitations and banners"]]}
+};
+const g=document.getElementById('gallery'),bn=document.getElementById('b-name'),bt=document.getElementById('b-text');
+function show(k){
+  const b=BRANDS[k]; bn.textContent=b.name; bt.textContent=b.text; g.innerHTML='';
+  b.items.forEach(([f,t,s])=>{
+    const el=document.createElement('button'); el.className='shot'; el.type='button';
+    el.innerHTML=`<img loading="lazy" src="img/${f}.jpg" alt="${t}"><span>${t}</span><small>${s}</small>`;
+    el.addEventListener('click',()=>openLb(f,t)); g.appendChild(el);
+  });
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x.dataset.k===k?'true':'false'));
+}
+document.querySelectorAll('.tab').forEach(x=>x.addEventListener('click',()=>show(x.dataset.k)));
+show('starich');
+const lb=document.getElementById('lb');
+function openLb(f,t){document.getElementById('lb-img').src=`img/${f}.jpg`;document.getElementById('lb-img').alt=t;document.getElementById('lb-cap').textContent=t;lb.hidden=false;document.getElementById('lb-close').focus()}
+function closeLb(){lb.hidden=true}
+document.getElementById('lb-close').addEventListener('click',closeLb);
+lb.addEventListener('click',e=>{if(e.target===lb)closeLb()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLb()});
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{
+  const v=b.dataset.copy;
+  const done=()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1600)};
+  try{navigator.clipboard.writeText(v).then(done).catch(()=>{selectText(b)})}catch(e){selectText(b)}
+}));
+function selectText(b){const n=b.parentElement.querySelector('b');const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+</script>
+
+</body>
+</html>
